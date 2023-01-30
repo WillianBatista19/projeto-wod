@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/projeto-wod/static/css/main.5d95e37c.css",
+    "main.js": "/projeto-wod/static/js/main.48475c7f.js",
+    "static/media/fundoVamp.jpg": "/projeto-wod/static/media/fundoVamp.30fc4d12b8b5f8589988.jpg",
+    "static/media/fundoLobo.jpg": "/projeto-wod/static/media/fundoLobo.db25e9f18980bec86c1f.jpg",
+    "static/media/fundoWod.jpg": "/projeto-wod/static/media/fundoWod.989f42e772b24bf2b974.jpg",
+    "static/media/fundoMago.jpeg": "/projeto-wod/static/media/fundoMago.deff20d19b8e093941e5.jpeg",
+    "index.html": "/projeto-wod/index.html",
+    "main.5d95e37c.css.map": "/projeto-wod/static/css/main.5d95e37c.css.map",
+    "main.48475c7f.js.map": "/projeto-wod/static/js/main.48475c7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d95e37c.css",
+    "static/js/main.48475c7f.js"
+  ]
+}

@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Abbott Old Style';
+    color: #BF1304;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+.title1 {
+    text-align: center;
+    font-family: 'Abbott Old Style';
+    color: #BF1304;
+    font-size: 3em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    padding: 35px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.itemlist {
+    padding: 20px 30px 0px 20px;
+    cursor: pointer;
+}
+
+.img {
+    display: flex;
+    margin: auto;
+    width: 55vw;
+}
+
+.frase {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+    padding: 10px 15px 30px;
+}
+
+.apresentacao {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.h1_apresentacao {
+    font-size: 2.5em;
+    padding: 20px 100px 0px 10px;
+    text-align: center;
+}
+
+.img_apresentacao {
+    width: 30vw;
+    margin-left: 40px;
+}
+
+.img_apresentacao_left {
+    width: 30vw;
+    margin-right: 40px;
+}
+
+.p_apresentacao {
+    width: 30vw;
+    font-size: 1.3em;
+    text-align: justify;
+}

@@ -76,3 +76,17 @@
     font-size: 1.3em;
     text-align: justify;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.h_footer {
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}

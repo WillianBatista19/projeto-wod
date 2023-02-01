@@ -52,7 +52,7 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .h1_apresentacao {
@@ -85,8 +85,22 @@
     background-color: white;
 }
 
-.h_footer {
+.p_footer {
     padding: 10px;
     color: black;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.p_footer_follow {
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+.logo_footer {
+    padding: 10px;
     cursor: pointer;
 }

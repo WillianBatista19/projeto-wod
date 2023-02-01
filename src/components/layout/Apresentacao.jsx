@@ -25,7 +25,7 @@ function Apresentacao() {
             <div className={styles.apresentacao}>
                 <div>
                     <h1 className={styles.h1_apresentacao}>Sobre o Projeto</h1>
-                    <p className={styles.p_apresentacao}> <br />O projeto foi criado pela junção de dois fatores, o estudo e o amor pelo RPG. O site foi projetado para fins de estudo na área da programação, e nada melhor do que estudar enquanto espalha seu hobby favorito. O objetivo do site é apresentar o universo de WoD para novos jogadores e os ensinar a jogar (ou servir de consulta para veteranos). </p>
+                    <p className={styles.p_apresentacao}> <br />O projeto foi criado pela junção de dois fatores, o estudo e o amor pelo RPG. O site foi projetado para fins de estudo na área da programação, e nada melhor do que estudar enquanto espalha seu hobby favorito. O objetivo do site é apresentar o universo de WoD para novos jogadores e os ensinar a jogar (ou servir de consulta para veteranos). <a href="https://github.com/WillianBatista19">Saiba mais!</a></p>
                 </div>
                 <img className={styles.img_apresentacao} src={FundoMago} alt="Mago: A Ascensão"/>
             </div>

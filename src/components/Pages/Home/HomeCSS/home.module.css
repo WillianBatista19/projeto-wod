@@ -121,7 +121,7 @@ Grandes telas: Acima de  1200px.*/
     }
 
     .titles {
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
     .title {
@@ -136,7 +136,7 @@ Grandes telas: Acima de  1200px.*/
         display: flex;
         margin: auto;
         justify-content: center;
-        width: 99vw;
+        width: 100vw;
         padding-top: 20px;
     }
 
@@ -185,7 +185,7 @@ Grandes telas: Acima de  1200px.*/
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 99vw;
+        width: 100vw;
     }
 
     .p_footer {

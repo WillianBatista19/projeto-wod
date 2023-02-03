@@ -185,7 +185,7 @@ Grandes telas: Acima de  1200px.*/
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100vw;
+        width: 99vw;
     }
 
     .p_footer {

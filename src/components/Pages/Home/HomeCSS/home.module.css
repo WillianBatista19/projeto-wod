@@ -125,11 +125,11 @@ Grandes telas: Acima de  1200px.*/
     }
 
     .title {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .title1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .img {
@@ -185,7 +185,7 @@ Grandes telas: Acima de  1200px.*/
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 96vw;
+        width: 99vw;
     }
 
     .p_footer {

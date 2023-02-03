@@ -1,4 +1,4 @@
-import styles from '../../components/Pages/Home/HomeCSS/home.module.css'
+import styles from '../../HomeCSS/Frase/Css/frase.module.css'
 
 function Frase() {
     return (

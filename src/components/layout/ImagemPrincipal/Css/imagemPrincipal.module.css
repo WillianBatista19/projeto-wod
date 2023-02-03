@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.img {
+    display: flex;
+    margin: auto;
+    width: 55vw;
+}
+
+@media screen and (max-width: 992px){
+    .img {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 99vw;
+        padding-top: 20px;
+    }
+}

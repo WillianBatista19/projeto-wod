@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.frase {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+    padding: 10px 15px 30px;
+}
+
+@media screen and (max-width: 992px){
+    .frase {
+        font-size: 1em;
+        padding-bottom: 5px;
+    }
+}

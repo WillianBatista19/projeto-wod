@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.titles {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title {
+    font-family: 'Abbott Old Style';
+    font-size: 2.5em;
+    color: #BF1304;
+}
+
+.title1 {
+    font-family: 'Abbott Old Style';
+    font-size: 3em;
+    color: #BF1304;
+}
+
+@media screen and (max-width: 992px){
+    .titles {
+        padding-top: 10px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .title1 {
+        font-size: 2.5em;
+    }
+}

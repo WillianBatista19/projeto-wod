@@ -1,4 +1,4 @@
-import styles from '../../components/Pages/Home/HomeCSS/home.module.css'
+import styles from '../../layout/Footer/Css/footer.module.css'
 
 function Footer() {
     return (

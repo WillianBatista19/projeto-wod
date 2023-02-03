@@ -1,7 +1,7 @@
-import Navbar from "./Navbar"
-import Navbar2 from "./Navbar2"
-import Title from "./Title"
-import styles from '../Pages/Home/HomeCSS/home.module.css'
+import Navbar from "./Navbar/Navbar"
+import Navbar2 from "./Navbar/Navbar2"
+import Title from "./Tilte/Title"
+import styles from '../../HomeCSS/Header/Css/header.module.css'
 
 function Header() {
     return(

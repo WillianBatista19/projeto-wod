@@ -1,4 +1,4 @@
-import styles from '../Pages/Home/HomeCSS/home.module.css'
+import styles from '../../../HomeCSS/Header/Navbar/Css/navbar.module.css'
 
 function Navbar() {
 

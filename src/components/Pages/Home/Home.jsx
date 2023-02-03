@@ -1,9 +1,8 @@
-import styles from './HomeCSS/home.module.css';
-import fundoWod from '../../img/fundoWod.jpg';
-import Header from '../../layout/Header';
-import Frase from '../../layout/Frase';
-import Apresentacao from '../../layout/Apresentacao';
-import Footer from '../../layout/Footer';
+import Header from './HomeCSS/Header/Header';
+import Frase from './HomeCSS/Frase/Frase';
+import Apresentacao from './HomeCSS/Apresentacao/Apresentacao';
+import Footer from '../../layout/Footer/Footer';
+import ImagemPrincipal from '../../layout/ImagemPrincipal/ImagemPrincipal';
 
 function Home() {
     
@@ -11,7 +10,7 @@ function Home() {
 
         <>
             <Header />
-            <img className={styles.img} src={fundoWod} alt="World of Darkness" />
+            <ImagemPrincipal />
             <Frase />
             <Apresentacao />
             <Footer />

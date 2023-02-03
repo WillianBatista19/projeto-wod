@@ -1,7 +1,7 @@
 import styles from '../../components/Pages/Home/HomeCSS/home.module.css'
 import FundoMago from '../../components/img/fundoMago.jpeg'
-import FundoVamp from '../../components/img/fundoVamp.jpg'
-import FundoLobo from '../../components/img/fundoLobo.jpg'
+import FundoVamp from '../../components/img/fundoVamp3.jpg'
+import FundoLobo from '../../components/img/fundoLobo2.jpg'
 
 function Apresentacao() {
     return (

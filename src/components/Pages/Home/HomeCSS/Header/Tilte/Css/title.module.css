@@ -2,12 +2,15 @@
 
 @font-face {
     font-family: 'Abbott';
-    src: url('../../../../../../assets/fonts/AbbottOldStyle.ttf'); font-weight: normal; font-style: normal;
+    src: url(../../../../../../../../src/fonts/AbbottOldStyle.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 .titles {
     text-align: center;
     padding-top: 20px;
+    font-style: normal;
 }
 
 .title {

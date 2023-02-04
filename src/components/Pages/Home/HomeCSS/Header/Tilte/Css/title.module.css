@@ -1,18 +1,23 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Abbott';
+    src: url('../../../../../../assets/fonts/AbbottOldStyle.ttf'); font-weight: normal; font-style: normal;
+}
+
 .titles {
     text-align: center;
     padding-top: 20px;
 }
 
 .title {
-    font-family: 'Abbott Old Style';
+    font-family: 'Abbott';
     font-size: 2.5em;
     color: #BF1304;
 }
 
 .title1 {
-    font-family: 'Abbott Old Style';
+    font-family: 'Abbott';
     font-size: 3em;
     color: #BF1304;
 }

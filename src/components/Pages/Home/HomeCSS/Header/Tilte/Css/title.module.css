@@ -11,6 +11,7 @@
     text-align: center;
     padding-top: 20px;
     font-style: normal;
+    z-index: 1;
 }
 
 .title {
@@ -26,7 +27,10 @@
 }
 
 @media screen and (max-width: 992px){
+
     .titles {
+        margin: auto;
+        align-content: center;
         padding-top: 10px;
     }
 

@@ -1,15 +1,16 @@
-import Navbar from "./Navbar/Navbar"
-import Navbar2 from "./Navbar/Navbar2"
 import Title from "./Tilte/Title"
 import styles from '../../HomeCSS/Header/Css/header.module.css'
+import NavBar from "./Navbar/NavBar"
 
 function Header() {
     return(
-       <div className={styles.header}>
-                <Navbar />
+        <>
+            <NavBar />
+            <div className={styles.header}>
                 <Title />
-                <Navbar2 />
-        </div>
+            </div> 
+        </>
+       
     )
 }
 

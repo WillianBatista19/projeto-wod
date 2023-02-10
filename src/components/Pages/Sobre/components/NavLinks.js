@@ -2,6 +2,7 @@ import styles from '../../Sobre/sobre.module.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
+
 const NavLinks = () => {
     const animateFrom = {opacity: 0, y: -40}
     const animateTo = {opacity: 1, y: 0}
@@ -14,28 +15,7 @@ const NavLinks = () => {
                     animate={animateTo}
                     transition={{delay: 0.05}}
                     className={styles.itemlist}>
-                    <Link className={styles.a_link} to="/sobre">Sobre</Link>
-                </motion.li>
-                <motion.li 
-                    initial={animateFrom}
-                    animate={animateTo}
-                    transition={{delay: 0.10}}
-                    className={styles.itemlist}>
-                    <Link className={styles.a_link} to="/sistemas">Sistemas</Link>
-                </motion.li>
-                <motion.li
-                    initial={animateFrom}
-                    animate={animateTo}
-                    transition={{delay: 0.20}}
-                    className={styles.itemlist}>
-                    <Link className={styles.a_link} to="/recomendacoes">Recomendações</Link>
-                </motion.li>
-                <motion.li 
-                    initial={animateFrom}
-                    animate={animateTo}
-                    transition={{delay: 0.30}}
-                    className={styles.itemlist}>
-                    <a className={styles.a_link} href="https://www.worldofdarkness.com" target="blank">Site</a>
+                    <Link className={styles.a_link} to="/">Home</Link>
                 </motion.li>
             </ul>
         </div> 

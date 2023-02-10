@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Abbott';
+    src: url(../../../../src/fonts/AbbottOldStyle.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.divSobre {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.title {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.titleH1 {
+    display: flex;
+    color: #BF1304;
+    justify-content: center;
+    font-size: 2.5em;
+    font-style: normal;
+    font-family: 'Abbott';
+}
+
+.divList {
+    font-size: 1.3em;
+    padding: 25px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemlist {
+    list-style: none;
+}
+
+.a_link {
+    text-decoration: none;
+}
+
+.mainText{
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.divText {
+    padding-top: 10px;
+    background-color: white;
+}
+
+.hText {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+}
+
+.sectionText {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pText {
+    width: 50%;
+    text-align: justify;
+    padding: 0px 30px 10px 30px;
+    font-size: 1.3em;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 992px){
+
+    .divSobre {
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+        width: 90%;
+        height: 10%;
+        padding-top: 30px;
+    }
+
+    .titleH1 {
+        display: flex;
+        color: #BF1304;
+        justify-content: center;
+        font-size: 2em;
+        font-style: normal;
+        font-family: 'Abbott';
+    }
+    
+    .divList {
+        font-size: 1.3em;
+        padding: 25px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainText{
+        width: 100%;
+    }
+
+    .hText {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .pText {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        padding: 10px;
+        font-size: 1em;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

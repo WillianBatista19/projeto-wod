@@ -3,15 +3,32 @@
 .list {
     display: flex;
     list-style: none;
-    padding: 35px;
+    padding: 20px 35px;
     color: white;
     font-size: 1.5em;
+    padding-left: 60px;
+    background-color: rgba(0,0,0,.7);
+    height: 80px;
 }
 
 .itemlist {
-    padding: 55px;
+    padding: 35px 55px;
     cursor: pointer;
     font-size: 0.9em;
+}
+
+.itemlist_center {
+    padding: 35px 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding-right: 200px;
+}
+
+.itemlist_center_left {
+    padding: 35px 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding-left: 200px;
 }
 
 .a_link {
@@ -28,14 +45,14 @@
 
 .div_Bar {
     display: flex;
-    position: fixed;
-    align-items: center;
+    position: absolute;
+    /* position: fixed; */
     justify-content: center;
-    background-color: rgba(0,0,0,.7);
+    /* background-color: rgba(0,0,0,.7); */
     width: 100%;
     height: 0px;
-    padding: 20px;
-    z-index: 2;
+    top: 0px;
+    /* z-index: 1; */
 }
 
 
@@ -53,10 +70,22 @@
         background-color: #0f0f0f;
         border-top: 3px solid #000000;
         opacity: 1;
+        height: 300px;
     }
 
     .itemlist {
         padding: 5%;
+        cursor: pointer;
+    }
+
+    .itemlist_center {
+        padding: 5%;
+        cursor: pointer;
+    }
+    
+    .itemlist_center_left {
+        padding: 5%;
+        cursor: pointer;
     }
 
     .navigation {
@@ -72,14 +101,13 @@
         cursor: pointer;
     }
 
-    .list a:hover {
+    .a_link:hover {
         border-bottom: none;
         color: #BF1304;
     }
 
     .div_Bar {
         display: flex;
-        position: absolute;
         align-items: center;
         justify-content: flex-start;
         background-color: #000000;

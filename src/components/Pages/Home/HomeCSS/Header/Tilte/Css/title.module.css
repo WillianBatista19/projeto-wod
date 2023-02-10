@@ -9,18 +9,22 @@
 
 .titles {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
     font-style: normal;
     z-index: 1;
 }
 
 .title {
+    position: relative;
+    top: -15px;
     font-family: 'Abbott';
     font-size: 2.5em;
     color: #BF1304;
 }
 
 .title1 {
+    position: relative;
+    top: -15px;
     font-family: 'Abbott';
     font-size: 3em;
     color: #BF1304;
@@ -31,7 +35,7 @@
     .titles {
         margin: auto;
         align-content: center;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .title {

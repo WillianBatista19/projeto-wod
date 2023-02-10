@@ -1,4 +1,4 @@
-import styles from './Css/navbar.module.css'
+import styles from '../../Sobre/sobre.module.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -20,14 +20,14 @@ const NavLinks = () => {
                     initial={animateFrom}
                     animate={animateTo}
                     transition={{delay: 0.10}}
-                    className={styles.itemlist_center}>
+                    className={styles.itemlist}>
                     <Link className={styles.a_link} to="/sistemas">Sistemas</Link>
                 </motion.li>
                 <motion.li
                     initial={animateFrom}
                     animate={animateTo}
                     transition={{delay: 0.20}}
-                    className={styles.itemlist_center_left}>
+                    className={styles.itemlist}>
                     <Link className={styles.a_link} to="/recomendacoes">Recomendações</Link>
                 </motion.li>
                 <motion.li 

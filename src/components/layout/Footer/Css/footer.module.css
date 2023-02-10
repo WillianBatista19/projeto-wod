@@ -2,46 +2,92 @@
 
 .footer {
     display: flex;
-    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    border-top: 1px solid rgba(255, 255, 255, 0.521);
+}
+
+.h3 {
+    padding-top: 15px;
+    color: #65A6A6;
+}
+
+.div_footer_list {
+    width: 20%;
     align-items: center;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.411);
 }
 
-.p_footer {
-    padding: 10px;
-    color: black;
-    font-size: 1.3em;
+.div_footer_list_follow {
+    width: 20%;
+    align-items: center;
 }
 
-.logo_footer {
-    padding: 10px;
+.list_footer {
+    list-style: none;
+    font-size: 1.2em;
+    padding-top: 15px;
+}
+
+.li_list_footer {
+    padding: 10px 0px 10px 0px;
     cursor: pointer;
 }
 
-.footer2 {
-    display: none;
+.li_list_footer:hover {
+    color: #BF1304;
+}
+
+.logo_footer {
+    padding-right: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px){
-    .footer {
-        display: none;
-    }
 
-    .footer2 {
-        margin: auto;
-        background-color: white;
+    .h3_footer {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 99vw;
+        flex-flow: row wrap;
+        margin: auto;
+        margin-top: 10px;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.521);
+    }
+    
+    .h3 {
+        padding: 10px;
+        color: #65A6A6;
+    }
+    
+    .div_footer_list {
+        width: 50%;
+        padding-left: 10px;
+        align-items: flex-start;
     }
 
-    .p_footer {
+    .div_footer_list_follow {
+        width: 100%;
+        padding-left: 10px;
+        align-items: flex-start;
+    }
+    
+    .list_footer {
+        list-style: none;
         font-size: 1.2em;
+        padding-top: 10px;
     }
-
+    
+    .li_list_footer {
+        padding: 10px 0px 10px 0px;
+        cursor: pointer;
+    }
+    
+    .li_list_footer:hover {
+        color: #BF1304;
+    }
+    
     .logo_footer {
-        padding: 0px 3px;
+        padding: 10px;
+        cursor: pointer;
     }
 }

@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 992px){
 
-    .h3_footer {
+    .footer {
         display: flex;
         flex-flow: row wrap;
         margin: auto;

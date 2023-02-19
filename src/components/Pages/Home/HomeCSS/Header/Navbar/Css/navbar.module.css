@@ -2,33 +2,31 @@
 
 .list {
     display: flex;
+    align-items: center;
     list-style: none;
-    padding: 20px 35px;
     color: white;
     font-size: 1.5em;
-    padding-left: 60px;
-    background-color: rgba(0,0,0,.7);
-    height: 80px;
+    /* background-color: rgba(0,0,0,.7); */
+}
+
+.divListLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.divListRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
 }
 
 .itemlist {
-    padding: 35px 55px;
+    padding: 0px 25px 0px 30px;
     cursor: pointer;
     font-size: 0.9em;
-}
-
-.itemlist_center {
-    padding: 35px 20px;
-    cursor: pointer;
-    font-size: 0.9em;
-    padding-right: 200px;
-}
-
-.itemlist_center_left {
-    padding: 35px 20px;
-    cursor: pointer;
-    font-size: 0.9em;
-    padding-left: 200px;
 }
 
 .a_link {
@@ -60,17 +58,22 @@
 
     /* #181818 */
 
+    .navBar {
+        width: 100%;
+    }
+
     .list {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top:109px;
-        right: 0px;
+        top:115px; 
+        right:0px;
         width: 100%;
         background-color: #0f0f0f;
-        border-top: 3px solid #000000;
-        opacity: 1;
+        border-top: 3px solid #612b2b;
         height: 300px;
+        justify-content: center;
+        /* align-items: flex-start; */
     }
 
     .itemlist {
@@ -88,13 +91,12 @@
         cursor: pointer;
     }
 
-    .navigation {
+    /* .navigation {
         display: none;
-    }
+    } */
 
     .mobileNavigation {
         display: flex;
-        align-items: center;
     }
 
     .hamburger {
@@ -113,7 +115,19 @@
         background-color: #000000;
         width: 100%;
         height: 0px;
-        padding: 90px 0px 5px 10px;
-        z-index: 0;
+        padding: 70px 0px 5px 10px;
+        /* z-index: 0; */
+    }
+
+    .divList {
+        display: flex;
+    }
+
+    .divListLeft {
+        display: none;
+    }
+    
+    .divListRight {
+        display: none;
     }
 }

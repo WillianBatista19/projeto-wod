@@ -1,6 +1,22 @@
+import Title from '../Recomendacao/components/Title'
+import Footer from '../../layout/Footer/Footer'
+import NavLinks from '../../layout/NavLinks/NavLinks'
+import styles from '../Recomendacao/recomendacoes.module.css'
+import RecoVideos from './components/RecoVideos'
+import ImagemPrinpical from '../../layout/ImagemPrincipal/ImagemPrincipal'
+
+
 function Recomendacao() {
     return(
-        <h1>Página de recomendação em desenvolvimento</h1>
+        <>
+            <div className={styles.divSobre}>
+                <NavLinks />
+                <Title />
+                <ImagemPrinpical />
+                <RecoVideos />
+            </div>
+            <Footer />
+        </>
     )
 }
 

@@ -5,6 +5,13 @@
     justify-content: center;
     align-items: center;
     padding: 40px 0px 20px;
+    width: 85%;
+    margin: auto;
+}
+
+.div_home {
+    width: 75%;
+    margin: auto;
 }
 
 @media screen and (max-width: 992px){
@@ -13,6 +20,11 @@
         justify-content: center;
         align-items: center;
         padding: 10px 0px 20px;
+    }
+
+    .div_home {
+        width: 100%;
+        margin: auto;
     }
 }
 

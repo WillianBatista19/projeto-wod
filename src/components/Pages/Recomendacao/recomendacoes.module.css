@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Abbott';
+    src: url(../../../../src/fonts/AbbottOldStyle.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.divSobre {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 75%;
+    padding-top: 30px;
+}
+
+.title {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.titleH1 {
+    display: flex;
+    color: #BF1304;
+    justify-content: center;
+    font-size: 2.5em;
+    font-style: normal;
+    font-family: 'Abbott';
+}
+
+.div_h1_videos_play {
+    display: flex;
+    margin: auto;
+}
+
+.h1_videos_play {
+    display: flex;
+    padding: 50px 0px 10px 0px;
+    font-size: 2em;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.section_videos {
+    display: flex;
+    /* flex-flow: row wrap; */
+    margin: auto;
+    margin-top: 10px;
+    /* border-top: 1px solid white; */
+}
+
+.div_videos {
+    width: 100%;
+    padding: 30px;
+    /* border: 1px solid white; */
+}
+
+.div_videos_play {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.div_videos_play iframe {
+    width: 40%;
+    padding: 10px;
+}
+
+.title_videos_play {
+    display: block;
+}
+
+.h2_videos_play {
+    display: flex;
+    padding: 20px 0px 20px 90px;
+    font-size: 2em;
+}
+
+.p_videos_play {
+    display: flex;
+    width: 79%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 992px){
+
+    .divSobre {
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+        width: 90%;
+        height: 10%;
+        padding-top: 30px;
+    }
+
+    .titleH1 {
+        display: flex;
+        color: #BF1304;
+        justify-content: center;
+        font-size: 2em;
+        font-style: normal;
+        font-family: 'Abbott';
+    }
+}

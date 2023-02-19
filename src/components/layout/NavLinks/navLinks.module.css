@@ -1,0 +1,29 @@
+.divList {
+    font-size: 1.3em;
+    padding: 25px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemlist {
+    list-style: none;
+}
+
+.a_link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px){
+
+    .divList {
+        font-size: 1.3em;
+        padding: 25px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

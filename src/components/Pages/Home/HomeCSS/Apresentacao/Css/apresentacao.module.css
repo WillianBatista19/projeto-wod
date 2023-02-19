@@ -5,6 +5,7 @@
     margin: auto;
     justify-content: center;
     padding-bottom: 30px;
+    width: 75%;
     /* border: 1px solid white; */
     /* width: 63%; */
 }
@@ -36,16 +37,21 @@
 }
 
 @media screen and (max-width: 992px){
+
+    /* .main {
+        padding: 50px 0px;
+    } */
+
     .apresentacao {
         justify-content: center;
-        width: 85%;
+        width: 80%;
         display: block;
         text-align: justify;
-        padding: 0;
+        /* padding: 40px 0px 0px 0px; */
     }
     
     .h2_apresentacao {
-        padding: 0px 0px 20px;
+        padding: 0px 0px 30px;
         font-size: 1.5em;
         display: block;
     }
@@ -60,9 +66,9 @@
     }
     
     .img_apresentacao, .img_apresentacao_left2 {
-        width: 85vw;
+        width: 100%;
         margin: auto;
         display: inline-block;
-        padding: 20px 0px 30px;
+        padding: 20px 0px 20px;
     }
 }

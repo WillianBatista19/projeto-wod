@@ -3,6 +3,7 @@ import Frase from './HomeCSS/Frase/Frase';
 import Apresentacao from './HomeCSS/Apresentacao/Apresentacao';
 import Footer from '../../layout/Footer/Footer';
 import ImagemPrincipal from '../../layout/ImagemPrincipal/ImagemPrincipal';
+import styles from './HomeCSS/Header/Css/header.module.css'
 
 
 function Home() {
@@ -10,10 +11,12 @@ function Home() {
     return (
 
         <>
-            <Header />
-            <ImagemPrincipal />
-            <Frase />
-            <Apresentacao />
+            <div className={styles.div_home}>
+                <Header />
+                <ImagemPrincipal />
+                <Frase />
+                <Apresentacao />
+            </div>
             <Footer />
         </>
 

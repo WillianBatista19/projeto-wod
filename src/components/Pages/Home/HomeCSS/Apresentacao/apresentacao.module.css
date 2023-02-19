@@ -4,10 +4,8 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    padding-bottom: 30px;
+    padding: 35px 0px 35px 0px;
     width: 75%;
-    /* border: 1px solid white; */
-    /* width: 63%; */
 }
 
 .h2_apresentacao {
@@ -38,16 +36,11 @@
 
 @media screen and (max-width: 992px){
 
-    /* .main {
-        padding: 50px 0px;
-    } */
-
     .apresentacao {
         justify-content: center;
         width: 80%;
         display: block;
         text-align: justify;
-        /* padding: 40px 0px 0px 0px; */
     }
     
     .h2_apresentacao {

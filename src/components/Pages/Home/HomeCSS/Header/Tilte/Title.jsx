@@ -1,4 +1,4 @@
-import styles from '../../../HomeCSS/Header/Tilte/Css/title.module.css'
+import styles from './title.module.css'
 
 function Title() {
     return (

@@ -1,4 +1,14 @@
-/* .div_home {
+@charset "UTF-8";
+
+.div_home {
     width: 75%;
-    background-color: aqua;
-} */
+    margin: auto;
+}
+
+@media screen and (max-width: 992px){
+
+    .div_home {
+        width: 100%;
+        margin: auto;
+    }
+}

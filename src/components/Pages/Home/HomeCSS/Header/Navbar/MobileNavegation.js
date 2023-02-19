@@ -1,4 +1,4 @@
-import styles from './Css/navbar.module.css'
+import styles from './navbar.module.css'
 import NavLinks from "./NavLinks";
 import {CgMenuRound} from 'react-icons/cg'
 import {CgCloseO} from 'react-icons/cg'

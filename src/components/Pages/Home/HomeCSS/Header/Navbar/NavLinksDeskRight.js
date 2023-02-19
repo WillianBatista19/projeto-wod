@@ -1,4 +1,4 @@
-import styles from './Css/navbar.module.css'
+import styles from './navbar.module.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 

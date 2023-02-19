@@ -44,16 +44,13 @@
 
 .section_videos {
     display: flex;
-    /* flex-flow: row wrap; */
     margin: auto;
     margin-top: 10px;
-    /* border-top: 1px solid white; */
 }
 
 .div_videos {
     width: 100%;
     padding: 30px;
-    /* border: 1px solid white; */
 }
 
 .div_videos_play {

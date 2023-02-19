@@ -27,23 +27,6 @@
     font-family: 'Abbott';
 }
 
-/* .divList {
-    font-size: 1.3em;
-    padding: 25px;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.itemlist {
-    list-style: none;
-}
-
-.a_link {
-    text-decoration: none;
-} */
-
 .mainText{
     padding-top: 20px;
     width: 70%;
@@ -95,15 +78,6 @@
         font-style: normal;
         font-family: 'Abbott';
     }
-    
-    /* .divList {
-        font-size: 1.3em;
-        padding: 25px;
-        width: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
 
     .mainText{
         width: 100%;

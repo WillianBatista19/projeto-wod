@@ -1,4 +1,4 @@
-import styles from '../recomendacoes.module.css'
+import styles from './recoVideos.module.css'
 
 function RecoVideos() {
     return(
@@ -15,13 +15,13 @@ function RecoVideos() {
                         </div>
 
                         <div className={styles.div_videos_play}>
-                            <iframe src="https://www.youtube.com/embed/MjBudLUMbc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube-nocookie.com/embed/MjBudLUMbc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                             <iframe src="https://www.youtube.com/embed/vvX8t1hMyi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                             <iframe src="https://www.youtube.com/embed/HXd4vPoOFKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe src="https://www.youtube.com/embed/zuBmPV3Buwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                            <iframe src="https://www.youtube.com/embed/zuBmPV3Buwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </section>
@@ -36,13 +36,14 @@ function RecoVideos() {
                         </div>
 
                         <div className={styles.div_videos_play}>
-                            <iframe src="https://www.youtube.com/embed/cOSJj03zBNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe src="https://www.youtube-nocookie.com/embed/XqMRXO6FtWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/cOSJj03zBNg" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe src="https://www.youtube.com/embed/w8V8RXSQEDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube-nocookie.com/embed/XqMRXO6FtWM" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe src="https://www.youtube.com/embed/caN12NJYCmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                            <iframe src="https://www.youtube.com/embed/w8V8RXSQEDE" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            <iframe src="https://www.youtube.com/embed/caN12NJYCmU" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                         </div>
                     </div>
                 </section>
@@ -57,13 +58,14 @@ function RecoVideos() {
                         </div>
 
                         <div className={styles.div_videos_play}>
-                            <iframe src="https://www.youtube.com/embed/XtOKFhCDjDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe src="https://www.youtube-nocookie.com/embed/FPne_UFhDjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/XtOKFhCDjDE" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
-                            <iframe src="https://www.youtube-nocookie.com/embed/zqED4wpGx6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube-nocookie.com/embed/FPne_UFhDjQ" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
-                            <iframe src="https://www.youtube.com/embed/dmokNliBQDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                            <iframe src="https://www.youtube-nocookie.com/embed/zqED4wpGx6A" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+                            <iframe src="https://www.youtube.com/embed/dmokNliBQDo" title="YouTube video player" frameborder="0"    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </section>
@@ -71,5 +73,4 @@ function RecoVideos() {
         </>
     )
 }
-
 export default RecoVideos

@@ -1,8 +1,8 @@
-import Title from '../Recomendacao/components/Title'
+import Title from '../Recomendacao/components/Title/Title'
 import Footer from '../../layout/Footer/Footer'
 // import NavLinks from '../../layout/NavLinks/NavLinks'
 import styles from '../Recomendacao/recomendacoes.module.css'
-import RecoVideos from './components/RecoVideos'
+import RecoVideos from './components/RecoVideos/RecoVideos'
 import ImagemPrinpical from '../../layout/ImagemPrincipal/ImagemPrincipal'
 
 

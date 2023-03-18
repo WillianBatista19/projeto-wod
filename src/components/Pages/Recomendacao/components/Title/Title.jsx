@@ -1,4 +1,4 @@
-import styles from '../../Recomendacao/recomendacoes.module.css'
+import styles from './title.module.css' 
 
 function Title() {
     return (

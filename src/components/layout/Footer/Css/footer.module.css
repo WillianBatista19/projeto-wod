@@ -2,9 +2,11 @@
 
 .footer {
     display: flex;
+    flex-flow: row wrap;
     margin: auto;
-    margin-top: 50px;
-    width: 70%;
+    justify-content: center;
+    margin-top: 40px;
+    width: 80%;
     border-top: 1px solid rgba(255, 255, 255, 0.521);
 }
 
@@ -15,12 +17,10 @@
 
 .div_footer_list {
     width: 20%;
-    align-items: center;
 }
 
 .div_footer_list_follow {
-    width: 20%;
-    align-items: center;
+    width: 10%;
 }
 
 .list_footer {
@@ -31,11 +31,11 @@
 
 .li_list_footer {
     padding: 10px 0px 10px 0px;
-    cursor: pointer;
 }
 
-.li_list_footer:hover {
+.li_list_footer span:hover {
     color: #BF1304;
+    cursor: pointer;
 }
 
 .logo_footer {

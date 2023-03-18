@@ -8,12 +8,8 @@ function Footer() {
                     <h3 className={styles.h3}>SOBRE</h3>
 
                     <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer}>
-                            World Of Darkness
-                        </li>
-                        <li className={styles.li_list_footer}>
-                            Projeto | WoD
-                        </li>
+                        <li className={styles.li_list_footer}><span>World Of Darkness</span></li>
+                        <li className={styles.li_list_footer}><span>Projeto | WoD</span></li>
                     </ul>
                 </div>
 
@@ -21,15 +17,9 @@ function Footer() {
                     <h3 className={styles.h3}>SISTEMAS</h3>
 
                     <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer}>
-                            Mago: A Ascensão
-                        </li>
-                        <li className={styles.li_list_footer}>
-                            Vampiro: A Mascara
-                        </li>
-                        <li className={styles.li_list_footer}>
-                            Lobisomem: O Apocalipse
-                        </li>
+                        <li className={styles.li_list_footer}><span>Mago: A Ascensão</span></li>
+                        <li className={styles.li_list_footer}><span>Vampiro: A Mascara</span></li>
+                        <li className={styles.li_list_footer}><span>Lobisomem: O Apocalipse</span></li>
                 </ul>
                 </div>
 
@@ -37,9 +27,9 @@ function Footer() {
                     <h3 className={styles.h3}>COMO JOGAR?</h3>
 
                     <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer} >Mago: 3º edição</li>
-                        <li className={styles.li_list_footer} >Vampiro: 5º edição</li>
-                        <li className={styles.li_list_footer} >Lobisomem: 3º edição</li>
+                        <li className={styles.li_list_footer}><span>Mago: 3º edição</span></li>
+                        <li className={styles.li_list_footer}><span>Vampiro: 5º edição</span></li>
+                        <li className={styles.li_list_footer}><span>Lobisomem: 3º edição</span></li>
                     </ul>
                 </div>
                 
@@ -47,9 +37,9 @@ function Footer() {
                     <h3 className={styles.h3}>PLANOS</h3>
 
                     <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer} >Novos Sistemas</li>
-                        <li className={styles.li_list_footer} >Mudanças no Designer</li>
-                        <li className={styles.li_list_footer} >Novidades</li>
+                        <li className={styles.li_list_footer}><span>Novos Sistemas</span></li>
+                        <li className={styles.li_list_footer}><span>Mudanças no Designer</span></li>
+                        <li className={styles.li_list_footer}><span>Novidades</span></li>
                     </ul>
                 </div>
 

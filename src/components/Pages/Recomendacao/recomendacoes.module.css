@@ -9,12 +9,13 @@
     display: flex;
     flex-flow: row wrap;
     margin: auto;
+    justify-content: center;
     width: 75%;
     padding-top: 30px;
 }
 
 .title {
-    width: 70%;
+    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -34,7 +35,7 @@
 
 .h1_videos_play {
     display: flex;
-    padding: 50px 0px 10px 0px;
+    padding: 40px 0px 10px 0px;
     font-size: 2em;
     color: white;
     align-items: center;
@@ -50,7 +51,7 @@
 
 .div_videos {
     width: 100%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .div_videos_play {

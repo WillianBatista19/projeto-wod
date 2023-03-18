@@ -41,10 +41,11 @@
         width: 80%;
         display: block;
         text-align: justify;
+        padding: 0px 0px 10px;
     }
     
     .h2_apresentacao {
-        padding: 0px 0px 30px;
+        padding: 0px 0px 20px;
         font-size: 1.5em;
         display: block;
     }

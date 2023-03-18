@@ -89,8 +89,7 @@
         display: flex;
         flex-flow: row wrap;
         margin: auto;
-        width: 90%;
-        height: 10%;
+        width: 100%;
         padding-top: 30px;
     }
 
@@ -98,8 +97,62 @@
         display: flex;
         color: #BF1304;
         justify-content: center;
-        font-size: 2em;
+        font-size: 1.7em;
         font-style: normal;
         font-family: 'Abbott';
+    }
+
+    .title {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .h1_videos_play {
+        display: flex;
+        padding: 30px 0px 0px;
+        font-size: 1.8em;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .h2_videos_play {
+        display: flex;
+        padding: 0px 0px 15px 15px;
+        font-size: 1.5em;
+    }
+
+    .p_videos_play {
+        display: flex;
+        width: 85%;
+        margin: auto;
+        text-align: justify;
+        padding-bottom: 20px;
+        font-size: 1.2em;
+    }
+
+    .section_videos {
+        display: flex;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .div_videos {
+        width: 100%;
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .div_videos_play {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .div_videos_play iframe {
+        width: 100%;
+        padding: 10px 10px 10px;
     }
 }

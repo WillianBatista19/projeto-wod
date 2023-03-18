@@ -9,7 +9,6 @@ import styles from './homecss.module.css'
 function Home() {
     
     return (
-
         <>
             <div className={styles.div_home}>
                 <Header />

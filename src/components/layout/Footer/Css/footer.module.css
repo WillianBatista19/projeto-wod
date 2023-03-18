@@ -47,15 +47,16 @@
 
     .footer {
         display: flex;
+        padding-top: 20px;
         flex-flow: row wrap;
         margin: auto;
-        margin-top: 0px;
-        width: 75%;
+        margin-top: 10px;
+        width: 95%;
         border-top: 1px solid rgba(255, 255, 255, 0.521);
     }
     
     .h3 {
-        padding: 10px;
+        padding: 5px;
         color: #65A6A6;
     }
     
@@ -67,7 +68,7 @@
 
     .div_footer_list_follow {
         width: 100%;
-        padding-left: 10px;
+        padding: 10px;
         align-items: flex-start;
     }
     
@@ -78,7 +79,7 @@
     }
     
     .li_list_footer {
-        padding: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 10px;
         cursor: pointer;
     }
     

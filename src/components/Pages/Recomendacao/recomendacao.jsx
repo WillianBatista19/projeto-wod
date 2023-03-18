@@ -10,12 +10,12 @@ function Recomendacao() {
     return(
         <>
             <div className={styles.divSobre}>
-                <NavLinks />
+                {/* <NavLinks /> */}
                 <Title />
                 <ImagemPrinpical />
                 <RecoVideos />
+                <Footer />
             </div>
-            <Footer />
         </>
     )
 }

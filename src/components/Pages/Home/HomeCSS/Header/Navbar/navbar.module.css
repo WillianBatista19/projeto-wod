@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Gill';
+    src: url(../../../../../../fonts/gill-sans-nova.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 .list {
     display: flex;
     align-items: center;
     list-style: none;
     color: white;
-    font-size: 1.5em;
 }
 
 .divListLeft {
@@ -25,11 +31,16 @@
 .itemlist {
     padding: 0px 25px 0px 30px;
     cursor: pointer;
-    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-size: 1.2em;
 }
 
 .a_link {
     text-decoration: none;
+    font-family: EB Garamond,times,serif;
 }
 
 .a_link:hover {

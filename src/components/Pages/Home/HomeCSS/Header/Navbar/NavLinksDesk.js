@@ -14,14 +14,14 @@ const NavLinksDesk = () => {
                         animate={animateTo}
                         transition={{delay: 0.05}}
                         className={styles.itemlist}>
-                        <Link className={styles.a_link} to="/sobre">Sobre</Link>
+                        <Link className={styles.a_link} to="/sobre">SOBRE</Link>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.10}}
                         className={styles.itemlist}>
-                        <Link className={styles.a_link} to="/sistemas">Sistemas</Link>
+                        <Link className={styles.a_link} to="/sistemas">SISTEMAS</Link>
                     </motion.li>
                 </ul>
         </div> 

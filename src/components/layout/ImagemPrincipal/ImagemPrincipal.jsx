@@ -4,7 +4,7 @@ import styles from '../ImagemPrincipal/Css/imagemPrincipal.module.css'
 function ImagemPrincipal() {
     return (
         <>
-            <img className={styles.img} src={FundoPrincipal} alt="World of Darkness"/>
+            <img className={styles.img} src={FundoPrincipal} loading='lazy' alt="World of Darkness"/>
         </>
     )
 }

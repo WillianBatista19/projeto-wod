@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 .geralApresentacao {
-    width: 93%;
+    width: 100%;
     height: auto;
-    margin: auto;
-    display: flex;
+    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1.25rem;
 }
 
 .separacao {
-    width: 93%;
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -49,14 +49,21 @@
     background: radial-gradient(ellipse at center,#000 0,transparent 100%);
 }
 
+.gridApresentacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    grid-column-gap: 1.25rem;
+}
+
 .apresentacao {
     display: flex;
-    /* padding: 35px 0px 35px 0px; */
-    width: 30%;
+    width: 100%;
     height: auto;
-    margin: 10px;
+    margin-bottom: 40px;
     border: 1px solid #fff;
     border-image: url(../../../../img/borda.png) 40;
+    justify-content: center;
 }
 
 .apresentacao2 {
@@ -81,25 +88,11 @@
     display: block;
     object-fit: cover;
     transition: transform .3s;
+    cursor: pointer;
 }
 
 .img_apresentacao:hover {
     transform: scale(1.1);
-}
-
-/* .img_apresentacao_left {
-    width: 100%;
-    min-height: 19.375rem;
-    max-height: 19.375rem;
-    display: block;
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    transition: transform .3s;
-} */
-
-.img_apresentacao_left2 {
-    display: none;
 }
 
 .p_apresentacao {
@@ -111,6 +104,41 @@
     margin-bottom: 10px;
     font-family: EB Garamond,times,serif;
     line-height: 1.45;
+    color: hsla(0,0%,100%,.8);
+}
+
+.Cards  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: column;
+    grid-column-gap: 1.25rem;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.CardImg {
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-image: url(../../../../img/borda.png) 40;
+    margin: auto;
+    transition: all .25s ease-in-out;
+}
+
+.CardImg:hover {
+    transform: translateY(-3px);
+}
+
+.CardImg img {
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    display: block;
+    cursor: pointer;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 992px){

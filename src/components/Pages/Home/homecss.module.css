@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .div_home {
-    width: 75%;
+    max-width: 75rem;
     margin: auto;
 }
 

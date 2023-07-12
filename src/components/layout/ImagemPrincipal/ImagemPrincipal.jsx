@@ -1,4 +1,4 @@
-import FundoPrincipal from '../../img/fundoWod.jpg'
+import FundoPrincipal from '../../img/wod_banner.png'
 import styles from '../ImagemPrincipal/Css/imagemPrincipal.module.css'
 
 function ImagemPrincipal() {

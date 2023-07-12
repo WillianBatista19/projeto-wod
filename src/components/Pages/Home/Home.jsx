@@ -6,6 +6,7 @@ import ImagemPrincipal from '../../layout/ImagemPrincipal/ImagemPrincipal';
 import styles from './homecss.module.css'
 import Apresentacao2 from './HomeCSS/Apresentacao/Apresentacao2.jsx';
 import NavTopBar from '../../layout/NavTop/NavTopBar';
+// import CardsSistemas from '../../layout/CardsSistemas/CardsSistemas';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
                 {/* <Frase /> */}
                 <Apresentacao2 />
                 {/* <Apresentacao /> */}
+                {/* <CardsSistemas /> */}
             </div>
             <Footer />
         </>

@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-@font-face {
+/* @font-face {
     font-family: 'Abbott';
     src: url(../../../../../../fonts/AbbottOldStyle.ttf);
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 .logo {
     width: 270px;
@@ -17,7 +17,7 @@
     text-align: center;
     font-style: normal;
     margin: auto;
-    width: 50%;
+    width: 40%;
 }
 
 /* .title {

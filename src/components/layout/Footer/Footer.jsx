@@ -4,12 +4,24 @@ function Footer() {
     return (
         <>
             <div className={styles.footer}>
+                
                 <div className={styles.div_footer_list}>
                     <h3 className={styles.h3}>SOBRE</h3>
 
                     <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer}><span>World Of Darkness</span></li>
+                        <li className={styles.li_list_footer}><span>Atualizações</span></li>
                         <li className={styles.li_list_footer}><span>Projeto | WoD</span></li>
+                        <li className={styles.li_list_footer}><span>World Of Darkness</span></li>
+                    </ul>
+                </div>
+
+                <div className={styles.div_footer_list}>
+                    <h3 className={styles.h3}>PLANOS</h3>
+
+                    <ul className={styles.list_footer}>
+                        <li className={styles.li_list_footer}><span>Novidades</span></li>
+                        <li className={styles.li_list_footer}><span>Novos Sistemas</span></li>
+                        <li className={styles.li_list_footer}><span>Mudanças no Designer</span></li>
                     </ul>
                 </div>
 
@@ -30,16 +42,6 @@ function Footer() {
                         <li className={styles.li_list_footer}><span>Mago: 3º edição</span></li>
                         <li className={styles.li_list_footer}><span>Vampiro: 5º edição</span></li>
                         <li className={styles.li_list_footer}><span>Lobisomem: 3º edição</span></li>
-                    </ul>
-                </div>
-                
-                <div className={styles.div_footer_list}>
-                    <h3 className={styles.h3}>PLANOS</h3>
-
-                    <ul className={styles.list_footer}>
-                        <li className={styles.li_list_footer}><span>Novos Sistemas</span></li>
-                        <li className={styles.li_list_footer}><span>Mudanças no Designer</span></li>
-                        <li className={styles.li_list_footer}><span>Novidades</span></li>
                     </ul>
                 </div>
 

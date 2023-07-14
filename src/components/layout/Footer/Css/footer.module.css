@@ -24,6 +24,10 @@
     margin-bottom: 20px;
 }
 
+/* .div_footer_list2 {
+    display: none;
+} */
+
 .div_footer_list_follow {
     width: 100%;
 }
@@ -62,10 +66,10 @@
     .footer {
         display: flex;
         padding-top: 20px;
-        flex-flow: row wrap;
+        flex-flow: wrap;
         margin: auto;
         margin-top: 10px;
-        width: 95%;
+        width: 100%;
         border-top: 1px solid rgba(255, 255, 255, 0.521);
     }
     
@@ -75,16 +79,37 @@
     }
     
     .div_footer_list {
-        width: 50%;
+        width: 45%;
+        height: auto;
         padding-left: 10px;
         align-items: flex-start;
     }
 
+    .li_list_footer span {
+        font-size: 1rem;
+    }
+
+    /* .div_footer_list1 {
+        display: none;
+    }
+
+    .div_footer_list2 {} */
+
     .div_footer_list_follow {
         width: 100%;
-        padding: 10px;
+        padding: 0px;
+        text-align: center;
         align-items: flex-start;
     }
+
+    .div_footer_list ul {
+        flex: 1;
+    }
+
+    .div_footer_list ul:nth-child(4) {
+        flex-grow: 1;
+        /* Estilos adicionais para a segunda ul */
+      }
     
     .list_footer {
         list-style: none;

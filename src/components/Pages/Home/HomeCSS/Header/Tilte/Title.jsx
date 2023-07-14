@@ -4,7 +4,7 @@ import Logo from '../../../../../img/wod-logo.svg'
 function Title() {
     return (
         <div className={styles.titles}>
-            <img className={styles.logo} src={Logo} alt="Lobisomem: O Apocalipse"/>
+            <img className={styles.logo} src={Logo} alt="Logo Wod"/>
             {/* <h2 className={styles.title}>WORLD OF</h2>
             <h1 className={styles.title1}>DARKNESS</h1> */}
         </div>

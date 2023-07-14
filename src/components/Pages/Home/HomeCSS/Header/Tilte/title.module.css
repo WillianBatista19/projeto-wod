@@ -10,10 +10,11 @@
 .logo {
     width: 270px;
     height: auto;
+    transition: width 0.5s ease;
 }
 
 .titles {
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     text-align: center;
     font-style: normal;
     margin: auto;
@@ -38,16 +39,23 @@
 
     .titles {
         width: 100%;
+        height: auto;
         margin: auto;
         align-content: center;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
-    .title {
+    .logo {
+        width: 150px;
+        height: auto;
+        transition: width 0.5s ease;
+    }
+
+    /* .title {
         font-size: 2em;
     }
 
     .title1 {
         font-size: 2.5em;
-    }
+    } */
 }

@@ -12,7 +12,7 @@
     justify-content: space-between;
     border-bottom: 1px solid hsla(0,0%,100%,.25);
     margin-bottom: 10px;
-  }
+}
   
 .logo {
     width: 100px;
@@ -42,5 +42,12 @@
 
 .navTop p a:hover {
     color: red;
+}
+
+@media screen and (max-width: 992px){
+
+    .navTop {
+        display: none;
+    }
 }
   

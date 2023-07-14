@@ -1,20 +1,35 @@
 @charset "UTF-8";
 
 .header {
+    background-color: transparent; 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px 20px;
     width: 85%;
     margin: auto;
+    /* position: sticky; */
+    top: 0;
+    z-index: 999;
 }
+
+/* .header.background-black {
+    background-color: rgb(214, 6, 6); 
+  }
+
+.header.is-sticky {
+    background-color: rgba(0,0,0,.7);
+    padding-bottom: 0.9375rem;
+    padding-top: 1.5625rem;
+} */
 
 @media screen and (max-width: 992px){
     .header {
         display: flex;
+        height: auto;
         justify-content: center;
         align-items: center;
-        padding: 10px 0px 20px;
+        padding: 10px 0px 10px;
     }
 }
 

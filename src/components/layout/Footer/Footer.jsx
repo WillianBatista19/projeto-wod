@@ -49,9 +49,9 @@ function Footer() {
                     <h3 className={styles.h3}>FOLLOW US</h3>
 
                     <a className={styles.logo_footer} href="https://github.com/WillianBatista19" target="blank"><img src="https://img.icons8.com/arcade/40/null/github.png" alt="logo_github" /></a>
-                    <a className={styles.logo_footer} href="https://www.instagram.com/natalnalua" target="blank"><img src="https://img.icons8.com/fluency/40/000000/instagram-new.png" alt="logo-Instagram" /></a> 
+                    {/* <a className={styles.logo_footer} href="https://www.instagram.com/natalnalua" target="blank"><img src="https://img.icons8.com/fluency/40/000000/instagram-new.png" alt="logo-Instagram" /></a>  */}
                     <a className={styles.logo_footer} href="https://www.linkedin.com/in/willian-alves-batista-b32b14206" target="blank"><img src="https://img.icons8.com/color/40/null/linkedin-circled--v1.png" alt="logo-linkedin" /></a> 
-                    <a className={styles.logo_footer} href="https://twitter.com/Natalnalua" target="blank"><img src="https://img.icons8.com/fluency/40/null/twitter-circled.png" alt="logo-twitter" /></a>
+                    {/* <a className={styles.logo_footer} href="https://twitter.com/Natalnalua" target="blank"><img src="https://img.icons8.com/fluency/40/null/twitter-circled.png" alt="logo-twitter" /></a> */}
                 </div>
             </div>
         </>
